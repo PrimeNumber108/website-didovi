@@ -49,7 +49,7 @@ const About = () => {
           />
         </div>
         <div className={`absolute inset-0 flex justify-center items-center`}>
-          <div className="w-full sm:w-[700px] flex justify-center items-center flex-col lg:gap-9 gap-4">
+          <div className="w-full sm:w-[600px] flex justify-center items-center flex-col lg:gap-9 gap-4">
             <h3 className="text-center text-white uppercase text-heading">Why Choose Us?</h3>
             <p className="leading-6 text-center text-white">
               - Opt for our distinctive and impactful marketing approach.

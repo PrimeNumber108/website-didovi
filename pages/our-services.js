@@ -13,7 +13,7 @@ const Services = () => {
           className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
         />
         <div className={`absolute inset-0 flex justify-center items-center`}>
-          <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
+          <div className="w-full sm:w-[550px] flex justify-center items-center flex-col lg:gap-9 gap-4">
             <h3 className="text-white uppercase text-heading">irizn</h3>
             <p className="leading-6 text-center text-white">
               We offer comprehensive social media marketing solutions tailored to your needs, including Social media
