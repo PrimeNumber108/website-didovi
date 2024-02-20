@@ -5,35 +5,35 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Jordan Pheld",
-    comment: "Good product, and the service cannot complain any point",
-    image: "/image/users/user-1.jpg",
+    name: "Sarah Smith",
+    comment: "Professional service, friendly staff, and enthusiastic support.",
+    image: "/image/users/user-1.png",
     rating: 5,
   },
   {
-    name: "Taylor Smith",
-    comment: "I'm impressed with the product and the way it develop and contribute on website.",
-    image: "/image/users/user-2.jpg",
-    rating: 5,
-  },
-  {
-    name: "Michelle Han",
-    comment: "The products are so professional prepare and pack, which make me satisfied a lot.",
-    image: "/image/users/user-3.jpg",
-    rating: 5,
-  },
-  {
-    name: "Somalia Nan",
+    name: "John Doe",
     comment:
-      "Cannot looking forward for any better products and service as this. The help me find out the things i need for my skin.",
-    image: "/image/users/user-4.jpg",
+      "Their Marketing consistently delivers outstanding results with their strategic approach and attention to detail.",
+    image: "/image/users/user-2.png",
     rating: 5,
   },
   {
-    name: "Jackie Matha",
+    name: "Emily Jones",
+    comment: "Personalized campaigns have made a significant impact on our sales growth and customer engagement.",
+    image: "/image/users/user-3.png",
+    rating: 5,
+  },
+  {
+    name: "Michael Johnson",
     comment:
-      "The transparency and clarity in their measurement and reporting are commendable. Their marketing services not only look good on paper but also contribute tangible value to our business growth.",
-    image: "/image/users/user-5.jpg",
+      "Their Marketing demonstrates exceptional market insight, providing invaluable guidance for our marketing efforts.",
+    image: "/image/users/user-4.png",
+    rating: 5,
+  },
+  {
+    name: "Jennifer Brown",
+    comment: "Highly skilled and dedicated team providing diverse and effective marketing solutions for businesses.",
+    image: "/image/users/user-5.png",
     rating: 4,
   },
 ];
@@ -42,13 +42,15 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <img src="/image/banners/banner-1.webp" alt="gkuls" className="w-full h-full brightness-[0.95]" />
+        <video className="brightness-90" autoPlay={true} muted loop>
+          <source src="/video/video-1.mp4" type="video/mp4"></source>
+        </video>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">gkuls</h3>
+            <h3 className="text-white uppercase text-heading">irizn</h3>
             <p className="leading-6 text-center text-white">
-              We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make
-              every important aspect of the customer experience a little bit better
+              Marketing goes beyond simply selling products; it involves skillfully crafting genuine customer value
+              rather than solely focusing on creative ways to distribute goods.
             </p>
           </div>
         </div>
@@ -56,10 +58,10 @@ export default function Home() {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/image/banners/banner-2.jpg"
-            alt="gkuls"
+            src="/image/banners/banner-1.jpg"
+            alt="irizn"
             fill
-            className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
+            className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
         </div>
         <div className="absolute inset-0 flex">
@@ -67,8 +69,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to
-                  make every important aspect of the customer experience a little bit better
+                  Marketing is the art of understanding, communicating, and fulfilling the needs and desires of
+                  consumers through strategic planning and creative execution.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -81,8 +83,8 @@ export default function Home() {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/image/banners/banner-3.jpg"
-            alt="gkuls"
+            src="/image/banners/banner-2.jpg"
+            alt="irizn"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.95]"
           />
@@ -92,8 +94,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to
-                  make every important aspect of the customer experience a little bit better
+                  Success in business is not solely attributed to one individual, but rather is the outcome of effective
+                  teamwork and collaboration...
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>
