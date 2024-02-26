@@ -4,68 +4,58 @@ import { v4 } from "uuid";
 
 const products = [
   {
-    name: "HolySmile Teeth Color Corrector",
+    name: "HolySmile Teeth Whitening",
     image: "/image/products/product-1.jpg",
-    desc: [
-      "Experience instant teeth whitening for the brightest smile and reduction in the appearance of yellow stains.",
-      "40ml",
-      "From the U.S.",
-    ],
+    desc: ["Eliminate yellow undertones in your teeth, unveiling a brighter, enhanced smile."],
   },
   {
-    name: "CC Cream -Mushroom Head Air Cushion",
+    name: "Air Cushion CC Cream | Mushroom Head Foundation",
     image: "/image/products/product-2.jpg",
-    desc: ["Transform your base makeup into a lightweight, natural-looking finish.", "20g", "From the U.S."],
+    desc: ["CC Cream Foundation Full Coverage, Even Skin Tone, Suitable for All Skin Types."],
   },
   {
-    name: "Charmante Hand Skin Serum",
-    image: "/image/products/product-3.jpg",
-    desc: ["Diminish wrinkles, provide instant hydration and soothe the skin effectively.", "40ml", "From the U.S."],
+    name: "Charmante Hands Hydration Gel",
+    image: "/image/products/product-3.png",
+    desc: ["Defend your hands against environmental and household stresses, leaving skin smooth and refreshed."],
   },
   {
-    name: "Kasomo Hair Growth Spray",
-    image: "/image/products/product-4.jpg",
-    desc: ["Promotes hair growth, prevents hair loss and addresses baldness effectively.", "75ml", "From the U.S."],
+    name: "KASOMO Boosting Hair Growth Spray",
+    image: "/image/products/product-4.png",
+    desc: ["Revitalize your scalp, repair damage, and trigger cell renewal for denser hair growth."],
   },
   {
-    name: "Kasomo Hair Mask",
+    name: "KASOMO Nourishing Hair Repair Mask",
     image: "/image/products/product-5.jpg",
-    desc: [
-      "Discover a vegan hair mask for achieving healthy, silky hair. Say goodbye to frizz, dryness and tangles in seconds.",
-      "From the U.S.",
-    ],
+    desc: ["An ideal therapy for damaged, unruly hair, effortlessly restore smoothness."],
   },
   {
-    name: "Kasomo Beard And Eyebrow Growth Serum",
+    name: "KASOMO Stimulating Beard & Eyebrow Growth Serum",
     image: "/image/products/product-6.jpg",
-    desc: [
-      "Revitalize beard and eyebrow growth; enhance thickness and length; fortify for stronger, denser results; diminish thinning and breakage in eyebrows.",
-      "From the U.S.",
-    ],
+    desc: ["Regrow beards & eyebrows fast in weeks, improve patchy, short beards, and eyebrows."],
   },
   {
-    name: "Kasomo Shampoo For Hair Loss And Dandruff",
+    name: "KASOMO Anti Dandruff & Hair Loss Shampoo",
     image: "/image/products/product-7.jpg",
-    desc: ["Effective in preventing hair loss and eliminating dandruff within 7 days of usage.", "From the U.S."],
+    desc: ["Reduce hair loss, breakage problems and prevent dandruff back."],
   },
   {
-    name: "Morri Peeling Lotion",
+    name: "Morri Glow Renewal Exfoliating Gel",
     image: "/image/products/product-8.jpg",
-    desc: ["Eliminate dead skin cells and dark spots, promoting smoother and brighter skin complexion.", "100ml"],
-  },
-  {
-    name: "Trezzen Shampoo Bar Soap (Upgrade version)",
-    image: "/image/products/product-9.jpg",
     desc: [
-      "Revitalize your natural hair color with our daily shampoo, effectively transforming gray or white hair into a youthful, vibrant dark shade.",
-      "60g",
-      "From the U.S.",
+      "Frequent use gently exfoliates, promoting a clearer, even complexion, while simultaneously hydrating and smoothing the skin.",
     ],
   },
   {
-    name: "Berari Vein Care Fading Cream (Upgrade version - More effective)",
+    name: "Trezzen Grey Hair Removal Bar Soap",
+    image: "/image/products/product-9.jpg",
+    desc: ["Diminishes grey tones with each wash while simultaneously boosting hair thickness by up to 98%."],
+  },
+  {
+    name: "Berari Vein Recovery Balm",
     image: "/image/products/product-10.jpg",
-    desc: ["Alleviate varicose veins and spider veins while enhancing blood circulation.", "30g", "From the U.S."],
+    desc: [
+      "Swiftly diminish spider veins and broken blood vessels, fortify veins, and enhance vein wall functionality for a noticeable reduction in unsightly spider veins.",
+    ],
   },
 ];
 

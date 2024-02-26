@@ -7,17 +7,17 @@ const Services = () => {
     <>
       <div className="relative w-full min-h-screen">
         <Image
-          src={"/image/banners/banner-3.png"}
-          alt="irizn"
+          src="/image/banners/banner-3.jpg"
+          alt="didovi"
           fill
           className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
         />
         <div className={`absolute inset-0 flex justify-center items-center`}>
           <div className="w-full sm:w-[550px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">irizn</h3>
+            <h3 className="text-white uppercase text-heading">didovi</h3>
             <p className="leading-6 text-center text-white">
-              We offer comprehensive social media marketing solutions tailored to your needs, including Social media
-              marketing, Email marketing and Affiliate marketing.
+              Unlock the full potential of your brand with our comprehensive suite of marketing services, ranging from
+              strategic planning and creative content development to social media management and data-driven analytics.
             </p>
           </div>
         </div>
@@ -25,12 +25,12 @@ const Services = () => {
       <ProductLayout />
       <div className="container max-w-[1200px] 2xl:max-w-[1600px] pt-0 flex justify-between md:flex-row flex-col gap-8 2xl:gap-16">
         <ProductAds
-          image="/image/services/service-4.png"
-          content="Over the past years, we have assisted more than 20,000 businesses from diverse industries in substantially increasing their revenue."
+          image="/image/services/service-6.jpg"
+          content="Your success is our mission. We promise to provide tailored marketing strategies that make a lasting impact."
         />
         <ProductAds
-          image="/image/services/service-5.png"
-          content="In 2023, we gained an additional 4,500 new clients and supported them in achieving remarkable results."
+          image="/image/services/service-7.jpg"
+          content="Our solutions effectively engaged with over 7,000 prospective clients, expanding our reach and impact in the market in 2023."
         />
       </div>
     </>

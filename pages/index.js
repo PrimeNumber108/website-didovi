@@ -5,35 +5,35 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Sarah Smith",
-    comment: "Professional service, friendly staff, and enthusiastic support.",
-    image: "/image/users/user-1.png",
+    name: "Alexander Mitchell",
+    comment: "DIDOVI Marketing transformed our brand and significantly boosted customer engagement.",
+    image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "John Doe",
+    name: "Ethan Reynolds",
     comment:
-      "Their Marketing consistently delivers outstanding results with their strategic approach and attention to detail.",
-    image: "/image/users/user-2.png",
+      "Working with DIDOVI Marketing was a game-changer, their innovative strategies increased website traffic and conversions.",
+    image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Emily Jones",
-    comment: "Personalized campaigns have made a significant impact on our sales growth and customer engagement.",
-    image: "/image/users/user-3.png",
+    name: "Olivia Anderson",
+    comment: "Professionalism and dedication define DIDOVI Marketing, resulting in a noticeable revenue increase.",
+    image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Michael Johnson",
+    name: "Williams",
+    comment: "Data-driven and detail-oriented, DIDOVI Marketing optimized our digital presence, improving ROI.",
+    image: "/image/users/user-4.jpg",
+    rating: 5,
+  },
+  {
+    name: "Emily Turner",
     comment:
-      "Their Marketing demonstrates exceptional market insight, providing invaluable guidance for our marketing efforts.",
-    image: "/image/users/user-4.png",
-    rating: 5,
-  },
-  {
-    name: "Jennifer Brown",
-    comment: "Highly skilled and dedicated team providing diverse and effective marketing solutions for businesses.",
-    image: "/image/users/user-5.png",
+      "Outstanding communication and collaboration with DIDOVI Marketing positively impacted our brand reputation.",
+    image: "/image/users/user-5.jpg",
     rating: 4,
   },
 ];
@@ -47,10 +47,10 @@ export default function Home() {
         </video>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">irizn</h3>
+            <h3 className="text-white uppercase text-heading">didovi</h3>
             <p className="leading-6 text-center text-white">
-              Marketing goes beyond simply selling products; it involves skillfully crafting genuine customer value
-              rather than solely focusing on creative ways to distribute goods.
+              With confidence, we pledge to deliver effective, tailored marketing strategies for your company&apos;s
+              success.
             </p>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="irizn"
+            alt="didovi"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -69,8 +69,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Marketing is the art of understanding, communicating, and fulfilling the needs and desires of
-                  consumers through strategic planning and creative execution.
+                  Our promise is simple: deliver highly effective marketing strategies, uniquely tailored for your
+                  company&apos;s success.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -84,9 +84,9 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="irizn"
+            alt="didovi"
             fill
-            className="object-cover object-center w-full h-full -z-10 brightness-[0.95]"
+            className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
         </div>
         <div className="absolute inset-0 flex">
@@ -94,8 +94,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Success in business is not solely attributed to one individual, but rather is the outcome of effective
-                  teamwork and collaboration...
+                  With precision, we guarantee results-driven marketing strategies designed exclusively for your
+                  company&apos;s triumph.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>
